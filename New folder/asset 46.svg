@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" baseProfile="full" version="1.2">
+        <defs>
+            <mask id="userpicmask" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse">
+                <svg width="100%" height="100%" version="1.1" xmlns:xlink="https://www.w3.org/1999/xlink" xml:space="preserve">
+                    <clipPath>
+                        <path fill="#FFFFFF" d="M10,62c0-7.7,5.4-17.2,12.1-21.1l65.8-38c6.7-3.9,17.6-3.9,24.2,0l65.8,38 C184.6,44.8,190,54.2,190,62V138c0,7.7-5.4,17.2-12.1,21.1l-65.8,38c-6.7,3.9-17.6,3.9-24.2,0l-65.8-38C15.4,155.2,10,145.7,10,138 V62z"/>
+                    </clipPath>
+                    <path fill="#FFFFFF" d="M10,62c0-7.7,5.4-17.2,12.1-21.1l65.8-38c6.7-3.9,17.6-3.9,24.2,0l65.8,38 C184.6,44.8,190,54.2,190,62V138c0,7.7-5.4,17.2-12.1,21.1l-65.8,38c-6.7,3.9-17.6,3.9-24.2,0l-65.8-38C15.4,155.2,10,145.7,10,138 V62z"/>
+                </svg>
+            </mask>
+        </defs>
+    </svg>
