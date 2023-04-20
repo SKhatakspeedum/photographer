@@ -7,6 +7,11 @@ import Photographers from './Components/Photographers';
 import PhotographerCityLanguage from './Components/PhotographerCityLanguage';
 import PhotographerPhoto from './Components/PhotographerPhoto';
 import Thanks from './Components/Thanks';
+import Login from './Components/Login';
+
+
+
+
 
 function App() {
   const [name,setName]=useState({
@@ -16,6 +21,7 @@ function App() {
     thanks: false,
     photographercitylanguage:false,
     photographerphoto: false,
+    login:false,
   });
   return (
     <>
@@ -25,7 +31,7 @@ function App() {
     { name?.thanks && <Thanks  setName={setName}/>}  
     { name?.photographercitylanguage && <PhotographerCityLanguage  setName={setName}/>}
     { name?. photographerphoto && <PhotographerPhoto  setName={setName}/>} 
-      
+    { name?.login && <Login setName={setName} />}  
     </>
   );
 }

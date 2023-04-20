@@ -15,7 +15,6 @@ export default function Photographers(props) {
 
   return (
     <>
-        
         <form  className='signup container' onSubmit={handleSubmit}>
         <h1>Photographers</h1>
       <label>
@@ -34,19 +33,19 @@ export default function Photographers(props) {
       <div>
       <button className='mr-3' onClick={() => {
         props?.setName((prev)=>{
-          return {...prev, photographers:false, photographercitylanguage:true}
-        })
-      }}>
-        Next 
-      </button>
-
-      <button onClick={() => {
-        props?.setName((prev)=>{
           return {...prev, photographers :false, signup:true}
         })
       }}>
         Prev
       </button>
+
+      <button className='mr-3' onClick={() => {
+        props?.setName((prev)=>{
+          return {...prev, photographers:false, photographercitylanguage:true}
+        })
+      }}>
+        Next 
+      </button>  
       </div>
     </form>
     </>

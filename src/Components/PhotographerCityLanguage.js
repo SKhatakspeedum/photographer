@@ -8,19 +8,19 @@ export default function PhotographerCityLanguage(props) {
       <div>
       <button className='mr-3' onClick={() => {
         props?.setName((prev)=>{
-          return {...prev, photographerphoto:true, photographercitylanguage:false}
-        })
-      }}>
-        Next 
-      </button>
-
-      <button onClick={() => {
-        props?.setName((prev)=>{
           return {...prev, photographercitylanguage:false,photographers:true}
         })
       }}>
         Prev
       </button>
+
+      <button className='mr-3' onClick={() => {
+        props?.setName((prev)=>{
+          return {...prev, photographerphoto:true, photographercitylanguage:false}
+        })
+      }}>
+        Next 
+      </button>   
       </div>
       </form>
     </div>

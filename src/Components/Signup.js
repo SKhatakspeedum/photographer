@@ -1,9 +1,8 @@
+// Signup page
 import React from "react";
-import { useState } from "react";
-// import Customer from './Customer';
 
-export default function Signup(props) {
-  const [name1, setName1] = useState();
+
+export default function Signup(props) {    //use props in function
 
   return (
     <>
@@ -13,7 +12,7 @@ export default function Signup(props) {
         <button className="mb-2"
           onClick={() => {
             props?.setName((prev) => {
-              return { ...prev, signup: false, customer: true };
+              return { ...prev, signup: false, customer: true }; //this pass customer in props
             });
           }}
         >
@@ -24,7 +23,7 @@ export default function Signup(props) {
         <button className="mb-2"
           onClick={() => {
             props?.setName((prev) => {
-              return { ...prev, signup: false, photographers: true };
+              return { ...prev, signup: false, photographers: true }; //This pass photographer in props
             });
           }}
         >
